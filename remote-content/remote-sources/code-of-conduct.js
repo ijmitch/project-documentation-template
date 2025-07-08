@@ -1,7 +1,7 @@
 /**
  * Code of Conduct Remote Content
  *
- * Downloads the CODE_OF_CONDUCT.md file from the llm-d repository
+ * Downloads the CODE_OF_CONDUCT.md file from the IBM repository
  * and transforms it into docs/community/code-of-conduct.md
  */
 

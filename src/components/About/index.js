@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 // import aboutGraphic from "@site/static/img/about-graphic.png";
-import aboutGraphic from "@site/static/img/llm-d-icon.png";
+import aboutGraphic from "@site/static/img/ibm-logo.svg";
 
 export default function About() {
   return (
@@ -46,7 +46,7 @@ export default function About() {
 
             <img
               className="about-graphic-4"
-              src="img/llm-d-logotype.png"
+              src="img/ibm-logo.svg"
               alt="About Graphic 4"
             ></img>
             <p className="about-text-4" role="paragraph">

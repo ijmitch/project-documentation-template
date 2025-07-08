@@ -1,7 +1,7 @@
 /**
  * Contributing Guide Remote Content
  *
- * Downloads the CONTRIBUTING.md file from the llm-d repository
+ * Downloads the CONTRIBUTING.md file from the IBM repository
  * and transforms it into docs/community/contribute.md
  */
 
@@ -24,8 +24,8 @@ export default [
     modifyContent(filename, content) {
       if (filename === 'CONTRIBUTING.md') {
         return createContentWithSource({
-          title: 'Contributing to llm-d',
-          description: 'Guidelines for contributing to the llm-d project',
+              title: 'Contributing to IBM',
+    description: 'Guidelines for contributing to the IBM project',
           sidebarLabel: 'Contributing',
           sidebarPosition: 1,
           filename: 'CONTRIBUTING.md',

@@ -1,7 +1,7 @@
 /**
  * Security Policy Remote Content
  *
- * Downloads the SECURITY.md file from the llm-d repository
+ * Downloads the SECURITY.md file from the IBM repository
  * and transforms it into docs/community/security.md
  */
 
@@ -25,7 +25,7 @@ export default [
       if (filename === 'SECURITY.md') {
         return createContentWithSource({
           title: 'Security Policy',
-          description: 'Security vulnerability reporting and disclosure policy for llm-d',
+          description: 'Security vulnerability reporting and disclosure policy for IBM',
           sidebarLabel: 'Security Policy',
           sidebarPosition: 3,
           filename: 'SECURITY.md',

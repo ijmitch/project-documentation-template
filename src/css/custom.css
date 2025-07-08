@@ -21,31 +21,50 @@
 }
 
 :root {
-  --ifm-color-primary: #7f317f;
-  --ifm-color-primary-dark: #722c72;
-  --ifm-color-primary-darker: #6c2a6c;
-  --ifm-color-primary-darkest: #592259;
-  --ifm-color-primary-light: #8c368c;
-  --ifm-color-primary-lighter: #923892;
-  --ifm-color-primary-lightest: #a540a5;
+  /* IBM Official Color Scheme */
+  --ifm-color-primary: #0f62fe;
+  --ifm-color-primary-dark: #0043ce;
+  --ifm-color-primary-darker: #002d9c;
+  --ifm-color-primary-darkest: #001d6c;
+  --ifm-color-primary-light: #4589ff;
+  --ifm-color-primary-lighter: #78a9ff;
+  --ifm-color-primary-lightest: #a6c8ff;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: "Red Hat Display", Arial, Helvetica, sans-serif;
   --ifm-font-family-monospace: "Red Hat Mono", "Courier New", monospace;
   background-color: white;
+  /* IBM Additional Colors */
+  --ibm-blue-60: #0f62fe;
+  --ibm-blue-50: #4589ff;
+  --ibm-blue-40: #78a9ff;
+  --ibm-blue-30: #a6c8ff;
+  --ibm-blue-20: #d0e2ff;
+  --ibm-blue-10: #edf5ff;
+  --ibm-gray-100: #161616;
+  --ibm-gray-90: #262626;
+  --ibm-gray-80: #393939;
+  --ibm-gray-70: #525252;
+  --ibm-gray-60: #6f6f6f;
+  --ibm-gray-50: #8d8d8d;
+  --ibm-gray-40: #a8a8a8;
+  --ibm-gray-30: #c6c6c6;
+  --ibm-gray-20: #e0e0e0;
+  --ibm-gray-10: #f4f4f4;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #d494d4;
-  --ifm-color-primary-dark: #ca7aca;
-  --ifm-color-primary-darker: #c56dc5;
-  --ifm-color-primary-darkest: #b448b4;
-  --ifm-color-primary-light: #deaede;
-  --ifm-color-primary-lighter: #e3bbe3;
-  --ifm-color-primary-lightest: #f3e1f3;
+  /* IBM Dark Theme Colors */
+  --ifm-color-primary: #4589ff;
+  --ifm-color-primary-dark: #0f62fe;
+  --ifm-color-primary-darker: #0043ce;
+  --ifm-color-primary-darkest: #002d9c;
+  --ifm-color-primary-light: #78a9ff;
+  --ifm-color-primary-lighter: #a6c8ff;
+  --ifm-color-primary-lightest: #d0e2ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-pre-background: #7f317f;
+  --ifm-pre-background: #262626;
   background-color: #262626;
 }
 
@@ -164,11 +183,11 @@ display: none !important;
   display: block;
 }
 
-img.llm-d-logo {
+img.ibm-logo {
   display: inline-block;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   @media screen and (max-width: 768px) {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -210,6 +229,57 @@ img.llm-d-logo {
   }
 }
 
+.ibm-links {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--ibm-gray-30);
+}
+
+.ibm-links h3 {
+  color: var(--ibm-blue-60);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.ibm-links ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.5rem;
+}
+
+.ibm-links li {
+  padding: 0.25rem 0;
+}
+
+.ibm-links a {
+  color: var(--ibm-blue-60);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.ibm-links a:hover {
+  color: var(--ibm-blue-50);
+  text-decoration: underline;
+}
+
+[data-theme="dark"] .ibm-links {
+  border-top-color: var(--ibm-gray-70);
+}
+
+[data-theme="dark"] .ibm-links h3 {
+  color: var(--ibm-blue-50);
+}
+
+[data-theme="dark"] .ibm-links a {
+  color: var(--ibm-blue-50);
+}
+
+[data-theme="dark"] .ibm-links a:hover {
+  color: var(--ibm-blue-40);
+}
+
 .button-group {
   display: flex;
   justify-content: space-between;
@@ -232,7 +302,7 @@ img.llm-d-logo {
   font-size: 1rem;
   font-weight: 700;
   font-family: inherit;
-  background-color: #7f317f;
+  background-color: var(--ibm-blue-60);
   cursor: pointer;
   transition: border-color 0.25s;
   width: 100%;
@@ -247,7 +317,7 @@ img.llm-d-logo {
 }
 
 .static-button:hover {
-  background-color: #a540a5;
+  background-color: var(--ibm-blue-50);
   transition: 250ms;
 }
 
@@ -308,7 +378,7 @@ img.llm-d-logo {
   font-family: "Red Hat Mono", monospace !important;
   font-weight: 500;
   padding: 1rem;
-  background-color: #262626;
+  background-color: var(--ibm-gray-90);
   border-radius: 15px;
   width: 100%;
 }
@@ -473,5 +543,5 @@ img.llm-d-logo {
 }
 
 .footer--dark {
-  --ifm-footer-background-color: #262626 !important;
+  --ifm-footer-background-color: var(--ibm-gray-90) !important;
 }

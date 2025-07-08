@@ -11,7 +11,7 @@ export default function Install() {
           <div className="install-header">
             <h1 className="install-h1">Try the Quickstart Demo </h1>
           </div>
-          <h2 className="install-h2">It's as easy as 1...2...llm-d!</h2>
+          <h2 className="install-h2">It's as easy as 1...2...IBM!</h2>
 
           {/* ----------- Modular Section (copy and paste as many as needed) ---------- */}
           <h3 className="install-h3">
@@ -46,7 +46,7 @@ export default function Install() {
               alt="3. "
               src={require('/docs/assets/counting-03.png').default}
               ></img>
-              <a className="link" href="docs/guide/Installation/quickstart#examples">Explore llm-d!</a></h3>
+              <a className="link" href="docs/guide/Installation/quickstart#examples">Explore IBM!</a></h3>
           {/* -------------------------------------------------------------------------- */}
           <a className="static-button install-button button-link" href="docs/guide">
             Complete install methods here

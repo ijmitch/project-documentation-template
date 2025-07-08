@@ -19,18 +19,18 @@ import remoteContentPlugins from "./remote-content/remote-content.js";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "project-documentation-template",
+  title: "IBM Open Source",
   tagline: "Powered by Docusaurus",
   favicon: "img/ibm-favicon.png",
 
   // Set the production url of your site here
   //url: "https://kproche.github.io/",
   // url: "https://jessicachitas.github.io/",
-  url: "https://ibm.github.io/project-documentation-template/",
+  url: "https://ibm.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   //baseUrl: "/llm-d.github.io/",
-  baseUrl: "/",
+  baseUrl: "/project-documentation-template/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -44,7 +44,7 @@ const config = {
   //EDIT THESE LINES APPROPRIATELY
   //organizationName: "jessicachitas", // Usually your GitHub org/user name.
   //organizationName: "kproche", // Usually your GitHub org/user name.
-  projectName: "project-documentation-template", // Usually your repo name.
+  projectName: "ibm-open-source", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
   trailingSlash: false,
@@ -125,13 +125,12 @@ const config = {
       navbar: {
         // title: "My Site",
         logo: {
-          alt: "llm-d Logo",
+          alt: "IBM Logo",
           src: "img/ibm-icon.png",
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "structureSidebar",
+            href: "https://ibm.com/opensource",
             position: "left",
             label: "What is open source at IBM?",
           },
