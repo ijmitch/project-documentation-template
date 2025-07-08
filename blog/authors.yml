@@ -1,0 +1,12 @@
+ibm:
+  name: IBM
+  url: https://ibm.com
+  image_url: https://avatars.githubusercontent.com/u/1459110?s=200&v=4
+
+jjasghar:
+  name: JJ Asghar
+  title: Developer Advocate, IBM
+  url: https://github.com/jjasghar
+  image_url: https://avatars.githubusercontent.com/u/810824?v=4
+  email: awesome@ibm.com
+
