@@ -3,6 +3,7 @@
 // Import individual remote content sources
 import contributeSource from './remote-sources/contribute.js';
 import codeOfConductSource from './remote-sources/code-of-conduct.js';
+import maintainersSource from './remote-sources/maintainers.js';
 import securitySource from './remote-sources/security.js';
 
 /**
@@ -26,6 +27,7 @@ import securitySource from './remote-sources/security.js';
 const remoteContentPlugins = [
   contributeSource,
   codeOfConductSource,
+  maintainersSource,
   securitySource,
 
   // Add more remote sources here
