@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_test=self.webpackChunkdocusaurus_test||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Announcing this Amazing Project!","permalink":"/project-documentation-template/blog/project-documentation-template-announce","unlisted":false,"date":"2025-05-20T08:00:00.000Z"}]}')}}]);
