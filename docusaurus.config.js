@@ -37,14 +37,14 @@ const config = {
 
   //IF YOU ARE DEPLOYING PREVIEW PAGES via GITHUB PAGES FOR THE MAIN REPO
   // UNCOMMENT THE NEXT TWO LINES AND COMMENT OUT THE FORK SECTION BELOW
-  organizationName: "ibm", // Usually your GitHub org/user name.
+  organizationName: "ijmitch", // Usually your GitHub org/user name.
   //projectName: "webdocs", // Usually your repo name.
 
   //IF YOU ARE DEPLOYING PREVIEW PAGES VIA GITHUB PAGES FOR A BRANCH OF A FORK IN YOUR ACCOUNT
   //EDIT THESE LINES APPROPRIATELY
   //organizationName: "jessicachitas", // Usually your GitHub org/user name.
   //organizationName: "kproche", // Usually your GitHub org/user name.
-  projectName: "ibm-open-source", // Usually your repo name.
+  projectName: "project-documentation-template", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
   trailingSlash: false,
